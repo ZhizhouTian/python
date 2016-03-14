@@ -1,0 +1,103 @@
+<configroot>
+<!-- configs -->
+<configs>
+<config type="memory">
+<item type="folder">/external_storage/DATE_EXTERNAL/kernel/</item>
+<item type="folder">/external_storage/last_log/DATEEXTERNAL_LASTLOG/kernel/</item>
+<item type="folder">/internal_storage/DATE_INTERNAL/kernel/</item>
+<item type="folder">/external_storage/last_log/DATEEXTERNAL_LASTLOG/internal_log/DATEINTERNAL_LASTLOG/kernel/</item>
+</config>
+
+<config type="cmdline">
+<item type="file" >/external_storage/DATE_EXTERNAL/misc/cmdline.log</item>
+<item type="file" >/internal_storage/DATE_INTERNAL/misc/cmdline.log</item>
+<item type="file" >/external_storage/last_log/DATEEXTERNAL_LASTLOG/misc/cmdline.log</item>
+<item type="file" >/external_storage/last_log/DATEEXTERNAL_LASTLOG/internal_log/DATEINTERNAL_LASTLOG/misc/cmdline.log</item>
+</config>
+
+<config type="ftp">
+<item type="forder">./PDLogs/slog_postprocess/</item>
+<item type="host">10.0.6.4</item>
+<item type="username">pdtest</item>
+<item type="password">PDtest$!75</item>
+</config>
+
+</configs>
+
+<getsymbols>
+<symbolname>symbols.vmlinux.sp9838aea_oversea_userdebug_native.tgz</symbolname>
+</getsymbols>
+</configroot>
+
+<!--
+<config type="anr">
+<file type="folder" checkitem="android,main,system,event,kernel,snapshot">external_storage/last_log/DATEEXTERNAL_LASTLOG/internal_log/DATEINTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="android,main,system,event,kernel,snapshot">external_storage/last_log/DATEEXTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="android,main,system,event,kernel,snapshot">external_storage/DATE_EXTERNAL/</file>
+<file type="folder" checkitem="android,main,system,event,kernel,snapshot">internal_storage/DATE_INTERNAL/</file>
+</config>
+
+<config type="javacrash">
+<file type="folder" checkitem="main">external_storage/DATE_EXTERNAL/android/</file>
+<file type="folder" checkitem="main">internal_storage/DATE_INTERNAL/android/</file>
+<file type="folder" checkitem="main">external_storage/last_log/DATEEXTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="main">external_storage/last_log/DATEEXTERNAL_LASTLOG/internal_log/DATEINTERNAL_LASTLOG/android/</file>
+</config>
+
+<config type="javacrashevent">
+<file type="folder" checkitem="event">external_storage/DATE_EXTERNAL/android/</file>
+<file type="folder" checkitem="event">internal_storage/DATE_INTERNAL/android/</file>
+<file type="folder" checkitem="event">external_storage/last_log/DATEEXTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="event">external_storage/last_log/DATEEXTERNAL_LASTLOG/internal_log/DATEINTERNAL_LASTLOG/android/</file>
+</config>
+
+<config type="javacrashdropbox">
+<file type="folder" checkitem="system_server_crash@">/dropbox/</file>
+</config>
+
+<config type="kernel">
+<file type="folder" checkitem="kernel">internal_storage/</file>
+<file type="folder" checkitem="kernel">external_storage/</file>
+</config>
+
+<config type="nativecrash">
+<file type="folder" checkitem="snapshot">/external_storage/last_log/DATEEXTERNAL_LASTLOG/misc/tombstones/</file>
+<file type="folder" checkitem="snapshot">/external_storage/DATE_EXTERNAL/misc/tombstones/</file>
+<file type="folder" checkitem="snapshot">/external_storage/last_log/DATEEXTERNAL_LASTLOG/internal_log/DATEINTERNAL_LASTLOG/misc/tombstones/</file>
+<file type="folder" checkitem="snapshot">/internal_storage/DATE_INTERNAL/misc/tombstones/</file>
+</config>
+
+<config type="nativecrashmain">
+<file type="folder" checkitem="main">/external_storage/DATE_EXTERNAL/android/</file>
+<file type="folder" checkitem="main">/external_storage/last_log/DATEEXTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="main">/internal_storage/DATE_INTERNAL/android/</file>
+<file type="folder" checkitem="main">/external_storage/last_log/DATEEXTERNAL_LASTLOG/internal_log/DATEINTERNAL_LASTLOG/android/</file>
+</config>
+
+<config type="nativecrashcore">
+<file type="folder" checkitem="core-">/corefile/</file>
+<file type="folder" checkitem="core-">/external_storage/nativecorefile/</file>
+</config>
+
+<config type="nativecrashdropbox">
+<file type="folder" checkitem="SYSTEM_TOMBSTONE@">/dropbox/</file>
+</config>
+
+<config type="watchdogcrash">
+<file type="folder" checkitem="system">/external_storage/last_log/DATEEXTERNAL_LASTLOG/internal_log/DATEINTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="system">/internal_storage/DATE_INTERNAL/android/</file>
+<file type="folder" checkitem="system">/external_storage/last_log/DATEEXTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="system">/external_storage/DATE_EXTERNAL/android/</file>
+</config>
+
+<config type="watchdogdropbox">
+<file type="folder" checkitem="system_server_watchdog@">/dropbox/</file>
+</config>
+
+<config type="watchdogsnap">
+<file type="folder" checkitem="snapshot_">/external_storage/last_log/DATEEXTERNAL_LASTLOG/misc/anr/</file>
+<file type="folder" checkitem="snapshot_">/external_storage/DATE_EXTERNAL/misc/anr/</file>
+<file type="folder" checkitem="snapshot_">/external_storage/last_log/DATEEXTERNAL_LASTLOG/internal_log/DATEINTERNAL_LASTLOG/misc/anr/</file>
+<file type="folder" checkitem="snapshot_">/internal_storage/DATE_INTERNAL/misc/anr/</file>
+</config>
+-->
